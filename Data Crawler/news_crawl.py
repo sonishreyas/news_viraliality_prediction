@@ -36,7 +36,7 @@ for link in urls:
     titles.append(article.title)
     publish_dates.append(article.publish_date)
     description.append(article.text)
-'''
+
 old_news = []
 for i in range(1,101):
     link = "https://www.indiatimes.com/seoarchive/pg-1"
@@ -63,6 +63,6 @@ for link in old_news:
     titles.append(article.title)
     description.append(article.text)
     publish_dates.append(article.publish_date)
-'''
+
 news_data = pd.DataFrame({"Title":titles,"Description":description,"PublishDate":publish_dates,"Shares":shares})
 news_data.to_csv("C:/Users/DELL/Desktop/news.csv",encoding='utf-8',index = False)
