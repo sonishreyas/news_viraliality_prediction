@@ -1,4 +1,4 @@
-### News Crawler
+News Crawler
 1. Crawiling data from indiatimes news website.
 2. Using newspaper library to download articles.
 
